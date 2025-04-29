@@ -15,8 +15,21 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-Add Code Here
+```
+def remove(s):
+   vowels='AEIOUaeiou'
+   b=''
+   for i in s:
+       if i in vowels:
+           b+=i
+   print(b)
+
+
+```
 
 ## Output
+![Screenshot 2025-04-29 180859](https://github.com/user-attachments/assets/3093fabc-f061-47a9-a3f6-50704bb9c868)
+
 
 ## Result
+The expected output is achieved
